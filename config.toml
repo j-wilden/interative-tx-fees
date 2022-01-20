@@ -1,0 +1,6 @@
+min_transaction_size    = 0.5
+max_transaction_size    = 5.00
+default_min             = 0.5
+default_max             = 2.5
+bytes_in_kb             = 1024
+satoshis_in_bsv         = 100000000
