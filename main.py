@@ -16,6 +16,14 @@ def main():
         "Multiple Transactions": page_multiple,
     }
 
+    # Set up the webpage
+    st.set_page_config(page_title="Interactive Tx Calc",
+                   page_icon="🏦",
+                   layout="wide",
+                   initial_sidebar_state="expanded")
+
+
+
     st.sidebar.title("Main options")
 
     # Radio buttons to select desired option
